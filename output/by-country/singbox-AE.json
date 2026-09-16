@@ -13,6 +13,9 @@
         "enabled": true,
         "server_name": "srv-21bac9.vless.monster",
         "insecure": false,
+        "alpn": [
+          "h2"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -28,7 +31,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
       "server": "31.58.181.88",
       "server_port": 8443,
-      "uuid": "1e158ab2-d28a-41c8-b31d-8ea2d8706fe7",
+      "uuid": "a85d3eb0-c71e-4086-8139-6ac7c9120389",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -53,7 +56,7 @@
       "tls": {
         "enabled": true,
         "server_name": "hopp-romania-new.roxa.org",
-        "insecure": false
+        "insecure": true
       }
     },
     {
