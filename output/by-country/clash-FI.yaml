@@ -13,6 +13,7 @@ proxies:
   tls: true
   servername: assets-fi.pleiades.codes
   skip-cert-verify: false
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: cdn.v1.AssetService
@@ -29,14 +30,6 @@ proxies:
   servername: www.google.com
   client-fingerprint: ''
 - name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: me6.movieseryalirani.ir
-  port: 57361
-  udp: true
-  type: vmess
-  uuid: ed815caa-bff1-4419-8c61-1d108eabaf1f
-  alterId: 0
-  cipher: auto
-- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
   server: iq5ny.pleiades.codes
   port: 8443
   udp: true
@@ -44,6 +37,14 @@ proxies:
   password: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
   sni: iq5ny.pleiades.codes
   skip-cert-verify: false
+- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  server: me6.movieseryalirani.ir
+  port: 57361
+  udp: true
+  type: vmess
+  uuid: ed815caa-bff1-4419-8c61-1d108eabaf1f
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
