@@ -18,13 +18,13 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
-      "server": "50.7.249.138",
+      "server": "50.7.249.155",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "polkadotnewone.failspace.top",
+        "server_name": "poland-good.failspace.top",
         "insecure": false,
         "alpn": [
           "h2"
@@ -38,13 +38,13 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe",
-      "server": "50.7.249.155",
+      "server": "50.7.249.138",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "poland-good.failspace.top",
+        "server_name": "polkadotnewone.failspace.top",
         "insecure": false,
         "alpn": [
           "h2"
