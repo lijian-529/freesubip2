@@ -5,6 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  server: sweedenqfds777.qcloud.surf
+  port: 21223
+  udp: true
+  type: hysteria2
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
   server: 94.143.231.146
   port: 443
   udp: true
@@ -19,19 +27,6 @@ proxies:
     path: /merky-connect/de6/
     headers:
       Host: sub.merky.top
-- name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  server: cape.flowzari.info
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6c21cf57-a9a9-4075-ad9f-631152bd911e
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 5DdSLIpnYjqYTI4-yC-ulr8PGMA8YML_EWdKvOjdinc
-    short-id: 693e339ad3613446
-  servername: cape.flowzari.info
-  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
